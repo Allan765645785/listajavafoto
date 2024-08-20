@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista de Itens</title>
+    <link rel="stylesheet" href="arceus.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Adicionar Item à Lista</h1>
+        <form id="itemForm">
+            <label for="title">Título:</label>
+            <input type="text" id="title" required>
+            
+            <label for="description">Descrição:</label>
+            <textarea id="description" required></textarea>
+            
+            <label for="image">Imagem (URL):</label>
+            <input type="url" id="image" required>
+            
+            <button type="submit">Adicionar Item</button>
+        </form>
+        <div id="list"></div>
+    </div>
+    <footer>
+       <p>Alex e Allanis<p>
+    </footer>
+    <script src="zeraora.js"></script>
+</body>
+</html>
